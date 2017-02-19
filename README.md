@@ -1,0 +1,1 @@
+Web-version of WinJap (http://www.hf.uio.no/ikos/studier/ressurser/sprak/japansk/demo%20av%20undervisningsressurser/winjap.htm).
