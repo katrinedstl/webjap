@@ -19,21 +19,21 @@ h1, h2, h3, p {
 }
 
 h1 {
-    font-size: 16px;
+    font-size: 1.77vw;
     font-weight: 700;
     text-transform: uppercase;
-    padding-bottom: 20px;
+    padding-bottom: 2.22vw;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 3.33vw;
     font-weight: 500;
 }
 
 h3 {
     text-align: right;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1.77vw;
     color: $off-white;
     text-decoration: underline;
 }
@@ -41,6 +41,10 @@ h3 {
 h4 {
     font-family: Roboto;
     color: #242424;
-    font-size: 28px;
+    font-size: 3.111vw;
     font-weight: 900;
+}
+
+* {
+    box-sizing:border-box;
 }
