@@ -1,9 +1,13 @@
 @import './StyleGlobals';
 
 .sidebar {
-    width: 250px;
+    width: 28vw;
     background: #cc4d1a;
-    padding: 40px 50px;
+    padding: 4vw 5vw;
+
+    @media only screen and (min-width: 1101px) {
+        min-height:100vh;
+    }
 
     @media only screen and (max-width: 1100px) {
         flex-grow: 1;
@@ -36,6 +40,10 @@
 .chapter-list, .multiple-selector, .start-container {
     display: flex;
     flex-wrap: wrap;
+    
+    @media only screen and (min-width: 1101px) {
+        justify-content:space-between;
+    }
 }
 
 .start-container {
@@ -53,12 +61,11 @@
 .chapter-list {
     height: 80%;
     overflow-y: auto;
-    margin-top: 20px;
-    margin-left: -10px;
+    margin: 2vw -1vw 0 -1vw;
 }
 
 .multiple-selector > p {
-    font-size: 12px;
+    font-size: 1.33vw;
     border-radius: 5px;
     padding: 2px 5px;
     margin: 5px;
@@ -68,18 +75,19 @@
 .chapter-number, .circle {
     border: solid 1px;
     cursor: pointer;
-    margin: 10px;
+    margin: 0.5vw;
 }
 
 .chapter-number {
     border-color: #fcfcfc;
-    width: 60px;
-    height: 60px;
+    width: 5vw;
+    height: 5vw;
     border-radius: 50%;
 
     p {
         text-align: center;
-        line-height: 60px;
+        line-height: 5vw;
+        font-size:1.77vw;
         margin: 0;
         padding: 0;
     }
@@ -102,14 +110,13 @@
 }
 
 .start-button {
-    width: 100px;
+    width: 11vw;
     margin-left: auto;
 
     .circle {
-        width: 60px; 
-        height: 60px;
+        width: 5vw; 
+        height: 5vw;
         border-radius: 50%;
-        margin-left: 30px;
 
         border-top-color: $off-white;
         border-right-color: $off-white;
@@ -118,9 +125,9 @@
     }
 
     p {
-        font-size: 26px;
-        margin: 0 0 0 -20px;
-        line-height: 60px;
+        font-size: 2vw;
+        margin: 0 0 0 -1.66vw;
+        line-height: 5vw;
         padding: 0;
     }
 }
