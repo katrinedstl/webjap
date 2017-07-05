@@ -9,8 +9,8 @@ const StartButton = ({onStartReviewing}) => {
     }
 
     return(
-        <div className="start-button">
-            <div className="circle" onClick={onClick}><p>Start</p></div>
+        <div className="start-button" onClick={onClick}>
+            <p>Start reviewing</p>
         </div>
     )
 }
@@ -62,7 +62,6 @@ const ChapterSelector = ({
 
     return(
         <div className="chapter-selector">
-            <h1>Select chapters</h1>
             { chapterList ? <ChapterList chapterList={chapterList} 
                                         selectedChapters={selectedChapters} 
                                         onSelectChapter={onSelectChapter}
@@ -70,11 +69,11 @@ const ChapterSelector = ({
 
 
             <div className="start-container">
+                <StartButton onStartReviewing={onStartReviewing}/>
                 <div className="multiple-selector">
                     <p onClick={selectAll}>Select all</p>
                     <p onClick={resetSelection}>Reset</p>
                 </div>
-                <StartButton onStartReviewing={onStartReviewing}/>
             </div>
         </div>
     )

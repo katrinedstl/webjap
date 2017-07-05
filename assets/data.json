@@ -1,7 +1,7 @@
 {
     "chapters":
         {
-        "1":
+        "Chapter 1":
             [
                         {"number":"0", "kanji":"¤", "romanji":"ano", "kana":"あの", "meaning":"um..."},
                         {"number":"1", "kanji":"今", "romanji":"ima", "kana":"いま", "meaning":"now"},
@@ -31,7 +31,7 @@
                         {"number":"25", "kanji":"留学生", "romanji":"ryuugakusei", "kana":"りゅうがくせい", "meaning":"international student"},
                         {"number":"26", "kanji":"私", "romanji":"watashi", "kana":"わたし", "meaning":"I"}
             ],
-        "2":
+        "Chapter 2":
             [
                         {"number":"27", "kanji":"¤", "romanji":"kore", "kana":"これ", "meaning":"this one"},
                         {"number":"28", "kanji":"¤", "romanji":"sore", "kana":"それ", "meaning":"that one"},
@@ -90,7 +90,7 @@
                         {"number":"81", "kanji":"¤", "romanji":"douzo", "kana":"どうぞ", "meaning":"Here it is; Here you are; Be my guest"},
                         {"number":"82", "kanji":"¤", "romanji":"doumo", "kana":"どうも", "meaning":"Thank you"}
             ],
-        "3":
+        "Chapter 3":
             [
                         {"number":"83", "kanji":"映画", "romanji":"eiga", "kana":"えいが", "meaning":"movie"},
                         {"number":"84", "kanji":"音楽", "romanji":"ongaku", "kana":"おんがく", "meaning":"music"},
@@ -146,7 +146,7 @@
                         {"number":"134", "kanji":"¤", "romanji":"demo", "kana":"でも", "meaning":"but"},
                         {"number":"135", "kanji":"¤", "romanji":"doudesuka", "kana":"どうですか", "meaning":"How about...?; How is...?"}
             ],
-        "4":
+        "Chapter 4":
             [
                         {"number":"136", "kanji":"¤", "romanji":"arubaito", "kana":"アルバイト", "meaning":"part-time job"},
                         {"number":"137", "kanji":"買い物", "romanji":"kaimono", "kana":"かいもの", "meaning":"shopping"},
@@ -209,7 +209,7 @@
                         {"number":"194", "kanji":"¤", "romanji":"soko", "kana":"そこ", "meaning":"there"},
                         {"number":"195", "kanji":"¤", "romanji":"koko", "kana":"ここ", "meaning":"here"}
             ],
-        "5":
+        "Chapter 5":
             [
                         {"number":"196", "kanji":"海", "romanji":"umi", "kana":"うみ", "meaning":"sea"},
                         {"number":"197", "kanji":"切手", "romanji":"kitte", "kana":"きって", "meaning":"postal stamps"},
@@ -266,7 +266,7 @@
                         {"number":"248", "kanji":"枚", "romanji":"mai", "kana":"まい", "meaning":"[counter for flat objects]"},
                         {"number":"249", "kanji":"¤", "romanji":"made", "kana":"まで", "meaning":"to (a place); as far as (a place); till (a time)"}
             ],
-        "6":
+        "Chapter 6":
             [
                         {"number":"250", "kanji":"お金", "romanji":"okane", "kana":"おかね", "meaning":"money"},
                         {"number":"251", "kanji":"¤", "romanji":"obaasan", "kana":"おばあさん", "meaning":"grandmother; old woman"},
@@ -318,7 +318,7 @@
                         {"number":"298", "kanji":"本当ですか", "romanji":"hontoudesuka", "kana":"ほんとうですか", "meaning":"Really?"},
                         {"number":"299", "kanji":"¤", "romanji":"yukkuri", "kana":"ゆっくり", "meaning":"slowly; leisurely; unhurriedly"}
             ],
-        "7":
+        "Chapter 7":
             [
                         {"number":"300", "kanji":"姉", "romanji":"ane", "kana":"あね", "meaning":"(my) older sister"},
                         {"number":"301", "kanji":"¤", "romanji":"apaato", "kana":"アパート", "meaning":"apartment"},
@@ -372,7 +372,7 @@
                         {"number":"349", "kanji":"¤", "romanji":"mochiron", "kana":"もちろん", "meaning":"of course"},
                         {"number":"350", "kanji":"¤", "romanji":"yokattara", "kana":"よかったら", "meaning":"if you like"}
             ],
-        "8":
+        "Chapter 8":
             [
                         {"number":"351", "kanji":"¤", "romanji":"asatte", "kana":"あさって", "meaning":"the day after tomorrow"},
                         {"number":"352", "kanji":"雨", "romanji":"ame", "kana":"あめ", "meaning":"rain"},
@@ -422,7 +422,7 @@
                         {"number":"396", "kanji":"¤", "romanji":"mada", "kana":"まだ", "meaning":"not .. yet"},
                         {"number":"397", "kanji":"¤", "romanji":"minnade", "kana":"みんなで", "meaning":"all (of the people together)"}
             ],
-        "9":
+        "Chapter 9":
             [
                         {"number":"398", "kanji":"いい子", "romanji":"iiko", "kana":"いいこ", "meaning":"good child"},
                         {"number":"399", "kanji":"色", "romanji":"iro", "kana":"いろ", "meaning":"color"},
@@ -475,7 +475,7 @@
                         {"number":"446", "kanji":"九つ", "romanji":"kokonotsu", "kana":"ここのつ", "meaning":"nine (small objects)"},
                         {"number":"447", "kanji":"十", "romanji":"too", "kana":"とお", "meaning":"ten (small objects)"}
             ],
-        "10":
+        "Chapter 10":
             [
                         {"number":"448", "kanji":"秋", "romanji":"aki", "kana":"あき", "meaning":"fall; autumn"},
                         {"number":"449", "kanji":"医者", "romanji":"isha", "kana":"いしゃ", "meaning":"doctor"},
@@ -529,7 +529,7 @@
                         {"number":"497", "kanji":"年", "romanji":"nen", "kana":"ねん", "meaning":"...years"},
                         {"number":"498", "kanji":"早く", "romanji":"hayaku", "kana":"はやく", "meaning":"(do something) early; fast"}
             ],
-        "11":
+        "Chapter 11":
             [
                         {"number":"499", "kanji":"¤", "romanji":"oosutoraria", "kana":"オーストラリア", "meaning":"Australia"},
                         {"number":"500", "kanji":"お菓子", "romanji":"okashi", "kana":"おかし", "meaning":"snack; sweets"},
@@ -578,7 +578,7 @@
                         {"number":"593", "kanji":"¤", "romanji":"maamaa", "kana":"まあまあ", "meaning":"okay; so-so"},
                         {"number":"594", "kanji":"¤", "romanji":"motto", "kana":"もっと", "meaning":"more"}
             ],
-        "12":
+        "Chapter 12":
             [
                         {"number":"595", "kanji":"足", "romanji":"ashi", "kana":"あし", "meaning":"leg; foot"},
                         {"number":"596", "kanji":"意味", "romanji":"imi", "kana":"いみ", "meaning":"meaning"},
@@ -631,7 +631,7 @@
                         {"number":"643", "kanji":"初めて", "romanji":"hajimete", "kana":"はじめて", "meaning":"for the first time"},
                         {"number":"644", "kanji":"¤", "romanji":"mousugu", "kana":"もうすぐ", "meaning":"very soon; in a few moments/days"}
             ],
-        "13":
+        "Chapter 13":
             [
                         {"number":"645", "kanji":"¤", "romanji":"ueitaa", "kana":"ウエイター", "meaning":"waiter"},
                         {"number":"646", "kanji":"¤", "romanji":"ojiisan", "kana":"おじいさん", "meaning":"grandfather; old man"},
@@ -693,7 +693,7 @@
                         {"number":"702", "kanji":"九日", "romanji":"kokonoka", "kana":"ここのか", "meaning":"nine days"},
                         {"number":"703", "kanji":"十日", "romanji":"touka", "kana":"とうか", "meaning":"ten days"}
             ],
-        "14":
+        "Chapter 14":
             [
                         {"number":"704", "kanji":"兄", "romanji":"ani", "kana":"あに", "meaning":"(my) older brother"},
                         {"number":"705", "kanji":"大家さん", "romanji":"ooyasan", "kana":"おおやさん", "meaning":"landlord"},
@@ -748,7 +748,7 @@
                         {"number":"754", "kanji":"匹", "romanji":"hiki", "kana":"ひき", "meaning":"[counter for smaller animals]"},
                         {"number":"755", "kanji":"本", "romanji":"hon", "kana":"ほん", "meaning":"[counter for long objects]"}
             ],
-        "15":
+        "Chapter 15":
             [
                         {"number":"756", "kanji":"絵", "romanji":"e", "kana":"え", "meaning":"painting; picture; drawing"},
                         {"number":"757", "kanji":"映画館", "romanji":"eigakan", "kana":"えいがかん", "meaning":"movie theater"},

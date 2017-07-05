@@ -2,10 +2,10 @@ import React from 'react';
 
 import './Review.scss';
 
-const Circle = () => {
+const Circle = ({word}) => {
     return(
         <svg width="24.5" height="23" viewBox="0 0 24.5 23">
-            <circle fill="#F9F9F9" strokeMiterlimit="10" cx="17.4" cy="15" r="6.3"/>
+            <circle fill="#F9F9F9" fillOpacity="0" strokeMiterlimit="10" cx="17.4" cy="15" r="6.3"/>
         </svg>
     )
 }
@@ -13,7 +13,7 @@ const Circle = () => {
 const Success = ({ word }) => {
     return(
         <div className="success">
-            <Circle />
+            <Circle word={word.kana} />
             <p>Correct! {word.kana}</p>
         </div>
     )
@@ -84,8 +84,8 @@ class Input extends React.Component {
 
         return(
             <div className="input">
-                <input type="text" ref="input" value={input} onKeyDown={this.onKeyDown} onChange={this.onChange} />
-                <button className="button" onClick={this.onClick}>⇒</button>
+                <input type="text" ref="input" placeholder="Translate to japanese" value={input} onKeyDown={this.onKeyDown} onChange={this.onChange} />
+                <button className="button" onClick={this.onClick}>></button>
             </div>
         );
     }
@@ -105,14 +105,14 @@ class Review extends React.Component {
 
         return(
             <div className="review-container">
-                <h1>Current word</h1>
                 <CurrentWord reviewing={reviewing} 
                                 previousWord={previousWord}
                                 currentWord={number} 
                                 words={items} />
                 { reviewing ? <Input input={input} 
                                         onUpdateInput={onUpdateInput} 
-                                        onSubmitInput={onSubmitInput} /> : undefined }
+                                        onSubmitInput={onSubmitInput} /> : 
+                                        <h2>Select one or more chapters <br/>to start reviewing!</h2> }
                 {reviewing && previousWord.number ? <Feedback previousWord={previousWord} 
                                                         items={items} /> : undefined}
             </div>

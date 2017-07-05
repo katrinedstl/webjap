@@ -10,7 +10,7 @@
 .reviewing-container {
     padding: 4vw 5vw;
     width: 72vw;
-    background: $off-white;
+    position: relative;
 
     @media only screen and (max-width: 1100px) {
         width: 100%;

@@ -2,12 +2,12 @@
     padding: 0.22vw;
 
     h1 {
-        color: #252525;
+        color: rgba(255, 255, 255, 1.000);
     }
 
     p {
-        color: #252525;
-        font-size: 1.33vw;
+        color: rgba(255, 255, 255, 1.000);
+        font-size: 14px;
     }
 
     @media only screen and (max-width: 1100px) {
@@ -20,14 +20,78 @@
     flex-wrap: wrap;
     flex-direction: row;
 
-    margin-top: 3.33vw;
+    margin-top: 100px;
+    margin-left: -1.11vw;
 }
 
 .stat-item {
     margin: 1.11vw;
+    margin-right: 2vw;
 }
 
 .stat-value {
     font-family: Roboto;
-    font-size: 2.88vw;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1.000);
+}
+
+.stat-circle {
+    .outer-circle {
+        position: absolute;
+        width: 260px;
+        height: 260px;
+        top: 40px;
+        right: 40px;
+        border: 1px solid rgba(255, 99, 94, 1.000);
+        border-radius: 50%;
+        z-index: -200;
+    }
+    .pulse {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        top: 70px;
+        right: 70px;
+        background-color: rgba(255, 99, 94, 1.000);
+        border-radius: 50%;
+        z-index: -200;
+    }
+    
+    .inner-circle {
+        position: absolute;
+        width: 140px;
+        height: 140px;
+        top: 100px;
+        right: 100px;
+        background-color:rgba(255, 162, 157, 1.000);
+        border-radius: 50%;
+        z-index: -200;
+
+        font-size: 30px;
+        font-weight: 600;
+        font-family: Roboto;
+        color: rgba(255, 255, 255, 1.000);
+
+        span {
+            position: absolute;
+
+            &.forward-slash {
+                top: 20px;
+                left: 50px;
+                font-size: 80px;
+                font-weight: 300;
+            }
+
+            &.completed {
+                top: 30px;
+                left: 30px;
+            }
+
+            &.remaining {
+                top: 70px;
+                left: 75px;
+            }
+        }
+    }
 }

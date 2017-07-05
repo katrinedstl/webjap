@@ -2,132 +2,124 @@
 
 .sidebar {
     width: 28vw;
-    background: #cc4d1a;
     padding: 4vw 5vw;
-
-    @media only screen and (min-width: 1101px) {
-        min-height:100vh;
-    }
+    box-sizing: border-box;
 
     @media only screen and (max-width: 1100px) {
-        flex-grow: 1;
-
-        .chapter-selector {
-            height: 100%;
-        }
-
-        .chapter-list {
-            height: 60%;
-            overflow-y: visible;
-        }
-
-        .start-container {
-            bottom: 0;
-        }
-    }
+        width: 100%;
+	}
 }
 
 .chapter-selector {
     margin: 0 auto;
-    height: 85%;
+    height: 85vh;
+    box-sizing: border-box;
 
     h2 {
         margin: 0;
         margin-bottom: 15px;
     }
+
+    @media only screen and (max-width: 1100px) {
+        height: auto;
+	}
 }
 
-.chapter-list, .multiple-selector, .start-container {
+.chapter-list, .start-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     
-    @media only screen and (min-width: 1101px) {
-        justify-content:space-between;
-    }
+    @media only screen and (max-width: 1100px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+	}
 }
 
 .start-container {
     height: 15%;
     min-height: 100px;
-    align-items: center;
     padding-top: 10px;
+    display: flex;
 }
 
 .multiple-selector {
-    flex-direction: column;
-    margin-left: -4px;
+    p {
+        display: inline-block;
+        font-size: 12px;
+        border: 1px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+        padding: 4px 7px;
+    }
 }
 
 .chapter-list {
     height: 80%;
     overflow-y: auto;
     margin: 2vw -1vw 0 -1vw;
+    box-sizing: border-box;
 }
 
-.multiple-selector > p {
-    font-size: 1.33vw;
-    border-radius: 5px;
-    padding: 2px 5px;
-    margin: 5px;
-    cursor: pointer;
-}
-
-.chapter-number, .circle {
+.chapter-number {
     border: solid 1px;
     cursor: pointer;
     margin: 0.5vw;
 }
 
 .chapter-number {
-    border-color: #fcfcfc;
-    width: 5vw;
-    height: 5vw;
-    border-radius: 50%;
+    border-color: #000000;
+    border-radius: 20px;
+    align-self: flex-start;
+    padding: 15px 30px;
 
     p {
         text-align: center;
-        line-height: 5vw;
-        font-size:1.77vw;
-        margin: 0;
+        font-size: 12px;
+        font-family: Poppins;
+        font-weight: 600;
+        letter-spacing: 3px;
         padding: 0;
+        margin: 0;
+        text-transform: uppercase;
     }
 
     &.selected {
-        background-color: $off-white;
+        background-color: #020202;
 
         p {
-            color: $matte-black;
+            color: #dedede;
         }
 
         &:hover {
-            background-color: #ededed;
+            background-color: #cecece;
+            border-color: #cecece;
+
+            p {
+                color: #020202;
+            }
         }
     }
 
     &:hover {
-        background-color: #e2551d;
+        background-color: #020202;
+        border-color: #020202;
+
+        p {
+            color: #f9f9f9;
+        }
     }
 }
 
 .start-button {
-    width: 11vw;
-    margin-left: auto;
-
-    .circle {
-        width: 5vw; 
-        height: 5vw;
-        border-radius: 50%;
-
-        border-top-color: $off-white;
-        border-right-color: $off-white;
-        border-bottom-color: $off-white;
-        border-left-color: transparent;
-    }
-
     p {
-        font-size: 2vw;
-        margin: 0 0 0 -1.66vw;
-        line-height: 5vw;
-        padding: 0;
+        display: inline-block;
+        cursor: pointer;
+        font-size: 26px;
+        border-bottom: 1px solid black;
+        padding-bottom: 4px;
+        margin: 0;
+        margin-top: 40px;
+        margin-bottom: 10px;
     }
 }

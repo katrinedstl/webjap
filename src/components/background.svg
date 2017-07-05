@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
+	.st3{fill:url(#SVGID_4_);}
+</style>
+<g id="Layer_1">
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="540" x2="1920" y2="540">
+			<stop  offset="0" style="stop-color:#FF5752"/>
+			<stop  offset="1" style="stop-color:#FF6055"/>
+		</linearGradient>
+		<rect class="st0" width="1920" height="1080"/>
+	</g>
+</g>
+<g id="Layer_4">
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="111" y1="710.1086" x2="1459" y2="710.1086">
+		<stop  offset="0" style="stop-color:#FF524D"/>
+		<stop  offset="1" style="stop-color:#FF534D"/>
+	</linearGradient>
+	<path class="st1" d="M1459,1081.6c-52.9-48.4-108.4-743.1-108.4-743.1C973.9,619.7,293,516,293,516l-182,565.7H1459z"/>
+</g>
+<g id="Layer_3">
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="625.2567" y1="541" x2="1921" y2="541">
+		<stop  offset="0" style="stop-color:#FF4B4A"/>
+		<stop  offset="1" style="stop-color:#FF5A52"/>
+	</linearGradient>
+	<path class="st2" d="M1920.2,210.7l0.8,869.7L625.3,1082c0,0,196.5-263.3,426.8-408.3c14.3-9,28.5-60.5,36.7-76.6
+		c13.5-26.3,27.6-52.3,42.5-77.9c30.4-52,63.9-102.2,100.7-149.9c62-80.3,133.9-152.5,209.9-219.6c36-31.8,72.6-62.4,113-88.6
+		C1586.9,40.5,1643.3,0,1683,0c0,0,237,0,237,0L1920.2,210.7z"/>
+</g>
+<g id="Layer_2">
+	<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="785" y1="840.4946" x2="1921" y2="840.4946">
+		<stop  offset="0" style="stop-color:#FF504D"/>
+		<stop  offset="1" style="stop-color:#FF524D"/>
+	</linearGradient>
+	<polygon class="st3" points="1920.1,600.6 785,1080.4 1921,1080.4 	"/>
+</g>
+</svg>

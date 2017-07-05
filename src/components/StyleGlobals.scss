@@ -1,13 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Poppins:600');
 
 $off-white: #f9f9f9;
 $matte-black: #505050;
+$japan-red: #e2442f;
 
-body, html {
+body {
     height: 100%;
     margin:0;
     padding:0;
-    background: $off-white;
+    background-image: url('background.svg');
+    background-size: cover;
 }
 
 h1, h2, h3, h4, p {
@@ -15,7 +17,7 @@ h1, h2, h3, h4, p {
 }
 
 h1, h2, h3, p {
-    color: $off-white;
+    color: rgba(255, 255, 255, 1.000);
 }
 
 h1 {
@@ -34,15 +36,16 @@ h3 {
     text-align: right;
     font-weight: 500;
     font-size: 1.77vw;
-    color: $off-white;
+    color: rgba(255, 255, 255, 1.000);
     text-decoration: underline;
 }
 
 h4 {
     font-family: Roboto;
-    color: #242424;
+    color: rgba(255, 255, 255, 1.000);
     font-size: 3.111vw;
     font-weight: 900;
+    margin: 30px 0 40px 0;
 }
 
 * {
